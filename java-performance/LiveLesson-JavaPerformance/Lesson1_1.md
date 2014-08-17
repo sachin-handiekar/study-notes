@@ -79,4 +79,23 @@ Server Class machine
 ### G1 Garbage Collector  ###
 
 * Supported as of Java HotSpot 7 update 4
-* 
+* Combination of a mostly concurrent and stop the world old generation collector.
+* Compacts old generation without requiring a full GC.
+
+## JIT Compiler ##
+
+Takes Java bytecode and generates native code for underlying platform.
+
+Huge performance improvement realized from JIT compilation.
+
+
+Choices
+
+* Client - rapid startup
+* Server - highly optimized
+
+* tiered  - best of both 
+	enables via 
+	-XX:+TieredCompilation
+
+
