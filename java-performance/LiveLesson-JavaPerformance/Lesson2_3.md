@@ -1,6 +1,6 @@
-Lesson 2.3 JVM Performance Metrics to Monitor
+#Lesson 2.3 JVM Performance Metrics to Monitor#
 
-Monitoring Garbage Collection
+##Monitoring Garbage Collection##
 * Recommend using the following command line options with the Java HotSpot VM to capture garbage collection logs
 
 -XX:+PrintGCDetails
@@ -10,7 +10,7 @@ Monitoring Garbage Collection
 * VisualVM's VisualGC to obeserve GC activity in an "online" mode.
 
 
-Monitoring application execution time and stopped time
+##Monitoring application execution time and stopped time##
 
 * To identity when the JVM has stopped application thrads from executing due to a GC event or some other "safepoint" operation.
 
